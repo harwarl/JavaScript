@@ -8,9 +8,13 @@
 </head>
 <body>
     <h2>What Javascript Can do</h2>
-    <p id="demo">Javascript can change HTML content.</p>
+    <p id="demo">Using Javasvript to change the value of src</p>
     
-    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello Javascript"'>Click Me!</button>
+    <button type="button" onclick='document.getElementById("myImage").src="images/on.png"'>Turn on the light</button>
+
+    <img id="myImage" src="images/off.png" style="width: 100px;">
+
+    <button type="button" onclick='document.getElementById("myImage").src="images/off.png"'>Turn off the light</button>
 
 </body>
 </html>
