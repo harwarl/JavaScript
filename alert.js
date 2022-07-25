@@ -40,7 +40,74 @@ let carName;
 carName = "Volvo";
 console.log("He Uses a "+carName +"!!!");
 
-let person = "John Doe", carName1 = "Toyota", price = 200;
-console.log(person + carName1 + price);
+console.log(pi);
+{
+    const pi = 32;
+    console.log(pi);
+}
+console.log(pi);
 
-pi = pi + 20;
+const cars = ["lexus", "audi", "mercedes"];
+cars[0] ="Toyota";
+console.log(cars);
+cars.push("BMW");
+console.log(cars);
+
+const car = {type:'Fiat', model:'500', color:'white'};
+console.log(car);
+car.color = 'red';
+console.log(car);
+car.owner='Johnson';
+console.log(car);
+
+let u = 32;
+u = ++u;
+console.log(u);
+
+let text1 = "What a very ";
+console.log(text1 += "nice day");
+
+let w = 5;
+w--;
+let f = w;
+console.log(f);
+
+let length = 16;
+let lastName = "Johnson";
+
+let x = 5;
+let y = 5;
+let z = 6;
+
+console.log(x == y);
+console.log(x == z);
+
+console.log(typeof x);
+console.log(typeof cars);
+console.log(typeof y);
+console.log(typeof car);
+
+function addit(p1, p2){
+    return p1 + p2;
+}
+
+console.log(addit(4, 5));
+
+function toCelsius(fahrenheit){
+    return (5/9) * (fahrenheit-32);
+}
+
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyecolor: "blue",
+    fullname: function() {
+        return this.firstName + " " + this.lastName;
+    }
+}
+
+console.log(person['firstName']);
+console.log(person['lastName']);
+console.log(person['age']);
+console.log(person.fullname());
