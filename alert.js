@@ -24,3 +24,23 @@ if (val === value){
 else{
     console.log("False");
 }
+
+let a, b, c;
+a = 5;
+b = 3;
+c = 6;
+
+console.log(a + b + c);
+
+const pi = 3.14;
+let area = pi * 4 * 4;
+console.log("Area of circle "+area+"cm");
+
+let carName;
+carName = "Volvo";
+console.log("He Uses a "+carName +"!!!");
+
+let person = "John Doe", carName1 = "Toyota", price = 200;
+console.log(person + carName1 + price);
+
+pi = pi + 20;
